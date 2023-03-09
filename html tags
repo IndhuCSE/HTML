@@ -1,0 +1,21 @@
+<!doctype html>  -->it shows that it is a html document.
+<html>  --> it is a starting tag.
+</html> --> it is ending tag.
+there is two basic sections
+1)<head>---</head >  head of the document.
+2)<body>...</body>   body of the document.
+tags inside the head.
+<title>---</title>--- title of the website
+meta tag-->it is basically that define information about our file
+<meta charset="UTF-8">
+<meta name="description" content ="this is awesome".
+
+it says that the document has this kind of character set,it is a description for the website.
+
+other tags insiide body
+* <p>--</p> paragraph tag.
+we can enter the content inside the body.
+
+
+
+ 
