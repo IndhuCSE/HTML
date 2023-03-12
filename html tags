@@ -4,7 +4,8 @@
 there is two basic sections
 1)<head>---</head >  head of the document.
 2)<body>...</body>   body of the document.
-tags inside the head.
+😊tags inside the head.
+
 <title>---</title>--- title of the website
 meta tag-->it is basically that define information about our file
 <meta charset="UTF-8">
@@ -12,9 +13,42 @@ meta tag-->it is basically that define information about our file
 
 it says that the document has this kind of character set,it is a description for the website.
 
-other tags insiide body
+😊other tags inside body tag.
+
 * <p>--</p> paragraph tag.
 we can enter the content inside the body.
+* <h1>--</h1> upto h6 is available.
+which differs in size.
+<b>--</b> --bold tag
+<i>--</i> --italic tag
+we can give both the same time.
+<br>--</br>--create a new line in a html document.
+<hr/>--it is a single tag.break up with horizontal line.
+<big>--</big>  anything inside the tag is will appear as big.
+<small>--</small>-- anything  inside the tag will appear as small.
+<p>H<sub>2</sub>0</p>--it will give  H2O --2 will appear in the base...bcse of sub tag.
+<p>10<sup>2</sup></p>--result is 10 square.
+<!--sd,asfuefxcbnsd--> it is a comments tag.
+<p style="colour: blue;">-- changing the colour.
+<p style="color: blue; background-color: blue;">
+<body style="color: blue; background-color: blue;">-- entire body will appear blue color.  
+
+🎶🐢🐳formatting the page
+<header>
+<nav> any navigational links </nav>
+</header>
+
+<main>
+<article>  </article>
+</main>
+
+<footer>
+</footer>
+ 
+
+
+
+
 
 
  
