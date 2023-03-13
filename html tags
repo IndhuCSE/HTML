@@ -34,15 +34,30 @@ we can give both the same time.
 <body style="color: blue; background-color: blue;">-- entire body will appear blue color.  
 
 🎶🐢🐳formatting the page
-<header>
+*<header>
 <nav> any navigational links </nav>
 </header>
 
-<main>
-<article>  </article>
+*<main>
+<article>to break the article into several sections  </article>.
+<article>
+<section>
+h1
+   h2
+      h3
+    h2
+
+</section>
+  
+<section>
+<aside>
+
+</aside>
+</section>
+
 </main>
 
-<footer>
+*<footer>
 </footer>
  
 
