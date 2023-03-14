@@ -59,6 +59,116 @@ h1
 
 *<footer>
 </footer>
+😒😎🐖🐉links
+
+used to link your webite to the other website.
+<a href="https://--link"target="_blank">Google's homepage</a>
+target=_blank --is open the link in new website.
+<a ref="page2.html>home</a>--go to next page..
+<a href="cat.jpg">cat</a>
+🐽🦀🕸️👀images
+
+<img src="location of image" alt="a really scary dino"/>---describing
+we can give height and width.
+<a href="link">
+<img width="100"height="100" src="link">
+</a>
+👽🐭🦤🐣videos and youtube frames
+<video src="location of video"poster="location"autoplay controls width="300"></video>
+<video src="location of video"poster="location"loop controls width="300"></video>
+for linking youtube videos utube itself give html code in embed option when clicking share.  
+
+🎃🎊🎉✨lists
+ 
+<ul>
+<li><a href="link">apple</li>
+<li>oranges</li>
+</ul>--->it is with dots
+
+<ol>
+<li><a href="link">apple</li>
+<li>oranges</li>
+</ol>--it is with 1,2,3,...
+and we can change the style like
+<ol type="i>--roman
+<li><a href="link">apple</li>
+<li>oranges</li>
+</ol>
+we can create list inside the list
+<dl>
+<dt>apples</dt>
+<dd>they are red</dd>
+</dl>
+🐷🌷🌸🥕tables
+
+<table>
+<thead>
+<caption>numbers</caption>
+<tr>
+<td>one</td>
+<td>two</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>three</td>
+<td>four</td>
+</tr>
+<th>
+<td>num one</td>
+<td>num2 two</td>
+<td colspan="3">two</td>--two columns in a table
+</thead>
+</th>--header
+
+</table>
+
+🎄📍🍫🍬divs and spans
+<a href="#"link1</a>
+<a href="#"link2</a>
+--in line elements
+<p>paar1</p>
+<p>para2</p>
+--block elements
+<span>span1</span>
+<span>span2</span
+--inline
+<div>div1</div>
+<div>div2</div>
+--block
+<input type="text"value="enter yourname"/>--single tag
+<input type="password"/>
+<input type="date"/>
+<input type="range"/>
+<input type="file"/>
+<input type="checkbox"/>
+<input name="btn"type="radio"/>--bottonscheck
+<input type="submit"/>
+
+<textarea rows="10"col="30">
+enter a paragraph
+</textarea>
+forms...
+<form>--like a wrapper
+<input type="submit"/>
+</form>
+....iframes in html
+
+<iframe src="link"frameboarder="0"width="1000"height="800">sorry</iframe>
+
+meta tags....
+<meta charset="UTF-8">
+<meta name="description content="your description">
+<meta name="author" content="indhu">
+<meta name="keywords" content="HTML">
+<meta name="viewport" content="indhu">
+
+
+
+
+
+
+
  
 
 
