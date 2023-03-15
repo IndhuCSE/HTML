@@ -1,0 +1,18 @@
+<!doctype.html>
+<html>
+<head>
+<title >INDHU'S WEBSITE</title>
+</head>
+<body>
+    <h1>INDHU'S WEBSITE</h1>
+    <hr>
+    <h2><p><b><i>this is my tutorial website...</i></b></p></h2>
+    <h2><p><b><i>to create a website the required language is </i></b></p></h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVA SCRIPT</li>
+    </ul>
+</body>
+
+</html>
