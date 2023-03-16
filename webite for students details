@@ -1,0 +1,64 @@
+<!doctype.html>
+<html>
+<head>
+<title >INDHU'S WEBSITE</title>
+<style>
+    div{
+        background-color: antiquewhite;
+        width: 1300px;
+        height: 20px;;
+        border:10px solid grey;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+        
+    }
+    input{
+        border: 2px solid black;
+    }
+</style>
+</head>
+<body style="background-color: grey;">
+    <div>
+        <h1><b>STUDENT'S DETAILS</b></h1>
+        </div>
+        <hr>
+        
+        <form action="next.php">
+        <label for="fname" ><b>First name</b></label><br>
+        <input type="text" placeholder="enter first name"/><br><br>
+        <label for="lastname"><b>Last name</b></label><br>
+        <input type="text" placeholder="enter last name"/><br><br>
+        <label for="dob"><b>Date Of Birth</b></label><br>
+        <input type="date" ><br><br>
+        <label for="gender"><b>Gender:</b></label>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+
+        </select><br><br>
+        <label><b>Department:</b></label><br>
+        <input type="radio" id="CSE" name="dept"value="CSE" >
+        <label for="CSE">CSE</label><br>
+        <input type="radio" id="CCE" name="dept"  value="CCE" >
+        <label for="CCE">CCE</label><br>
+        <input type="radio" id="ECE" name="dept" value="ECE" >
+        <label for="ECE">EEE</label><br>
+        <input type="radio" id="EEE" name="dept" value="EEE" >
+        <label for="EEE">ECE</label><br>
+        <input type="radio" id="MECH" name="dept"  value="MECH" >
+        <label for="MECH">MECH</label><br>
+        <input type="radio" id="AI-DS"name="dept"  value="AI-DS" >
+        <label for="AI-DS">AI-DS</label><br><br>
+        <label id="mobno"><b>Mobile No:</b></label>
+        <input type="tel" id="mobno" placeholder="mobile no"><br><br>
+        <label id="mail">Email:</label>
+        <input type="email" id="mail" name="mail"><br><br>
+        <input type="submit" value="submit">
+        </form>
+
+    
+</body>
+
+</html>
