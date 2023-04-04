@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<style>
+    /* General Styles */
+    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Product Cards */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.product-card img {
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+}
+
+.product-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+}
+
+.product-card button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+</style>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="products">
+            <!-- Product Cards -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Product Image">
+                <h2>Product 1</h2>
+                <p>$10.99</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Product Image">
+                <h2>Product 2</h2>
+                <p>$19.99</p>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Product Image">
+                <h2>Product 3</h2>
+                <p>$24.99</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 E-Commerce Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Sample data for products
+        const products = [
+            {
+                name: "Product 1",
+                image: "https://via.placeholder.com/250",
+                price: 10.99,
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            {
+                name: "Product 2",
+                image: "https://via.placeholder.com/250",
+                price: 19.99,
+                description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+            {
+                name: "Product 3",
+                image: "https://via.placeholder.com/250",
+                price: 24.99,
+                description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+            }
+        ];
